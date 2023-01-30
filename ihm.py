@@ -12,63 +12,63 @@ game_on=True
 
 #fond
 
-conf = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/conf.jpg")
-acc = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/accueil1.jpg")
+conf = p.image.load("./Cartes/conf.jpg")
+acc = p.image.load("./Cartes/accueil1.jpg")
 
 #images défausse, déplacement, orientation
 
-depl = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/deplacement.png")
-ori = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/orientation.png")
-se_def = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/defausse.png")
+depl = p.image.load("./Cartes/deplacement.png")
+ori = p.image.load("./Cartes/orientation.png")
+se_def = p.image.load("./Cartes/defausse.png")
 
 
 #images rôles
 
-chev = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/chevalier.png")
-guer = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/guerrier.png")
-moin = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/moine.png")
-ass = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/assassin.png")
+chev = p.image.load("./Cartes/chevalier.png")
+guer = p.image.load("./Cartes/guerrier.png")
+moin = p.image.load("./Cartes/moine.png")
+ass = p.image.load("./Cartes/assassin.png")
 
 
 #images états
 
-saig = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/saignement.png")
+saig = p.image.load("./Cartes/saignement.png")
 
 
-rev = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/Revers_devastateur.png")
-high = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/High_kick.png")
-upp = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/Uppercut.png")
-tir = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/Tir_d_arbalete.png")
-poing = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/Frappe_du_poing.png")
-vel = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/Frappe_Veloce.png")
-par_guer = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/parade_guerrier.png")
-par_assa = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/parade_assassin.png")
-par_chev = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/parade_chevalier.png")
-par_moin = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/parade_moine.png")
-bal = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/balayage.png")
-poign = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/coup_de_poignard_leger.png")
-avan = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/avancee_fulgurante.png")
-sauva = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/charge_sauvage.png")
-aban = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/abandon_du_fair_play.png")
-face = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/dans_ta_face.png")
-verti = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/frappe_verticale.png")
-tourbi = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/tourbillon_de_lames.png")
-embro = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/embrocher.png")
-elan = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/prendre_son_elan.png")
-foi = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/foi_renouvelee.png")
-bers = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/berserker.png")
-egor = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/egorgement.png")
-trans = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/transe_du_combattant.png")
-destru = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/parade_destructrice.png")
-eclair = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/frappe_eclair.png")
-estoc = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/frappe_d_estoc.png")
-exec = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/executer.png")
+rev = p.image.load("./Cartes/revers_devastateur.png")
+high = p.image.load("./Cartes/high_kick.png")
+upp = p.image.load("./Cartes/uppercut.png")
+tir = p.image.load("./Cartes/tir_d_arbalete.png")
+poing = p.image.load("./Cartes/frappe_du_poing.png")
+vel = p.image.load("./Cartes/frappe_veloce.png")
+par_guer = p.image.load("./Cartes/parade_guerrier.png")
+par_assa = p.image.load("./Cartes/parade_assassin.png")
+par_chev = p.image.load("./Cartes/parade_chevalier.png")
+par_moin = p.image.load("./Cartes/parade_moine.png")
+bal = p.image.load("./Cartes/balayage.png")
+poign = p.image.load("./Cartes/coup_de_poignard_leger.png")
+avan = p.image.load("./Cartes/avancee_fulgurante.png")
+sauva = p.image.load("./Cartes/charge_sauvage.png")
+aban = p.image.load("./Cartes/abandon_du_fair_play.png")
+face = p.image.load("./Cartes/dans_ta_face.png")
+verti = p.image.load("./Cartes/frappe_verticale.png")
+tourbi = p.image.load("./Cartes/tourbillon_de_lames.png")
+embro = p.image.load("./Cartes/embrocher.png")
+elan = p.image.load("./Cartes/prendre_son_elan.png")
+foi = p.image.load("./Cartes/foi_renouvelee.png")
+bers = p.image.load("./Cartes/berserker.png")
+egor = p.image.load("./Cartes/egorgement.png")
+trans = p.image.load("./Cartes/transe_du_combattant.png")
+destru = p.image.load("./Cartes/parade_destructrice.png")
+eclair = p.image.load("./Cartes/frappe_eclair.png")
+estoc = p.image.load("./Cartes/frappe_d_estoc.png")
+exec = p.image.load("./Cartes/executer.png")
 
 #images pions
 
-fish = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/fish.png")
-fish2 = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/fish2.jpg")
-deuxfish = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/deuxfish.png")
+fish = p.image.load("./Cartes/fish.png")
+fish2 = p.image.load("./Cartes/fish2.jpg")
+deuxfish = p.image.load("./Cartes/deuxfish.png")
 deuxfish = p.transform.scale(deuxfish, (100, 100))
 
 
@@ -312,7 +312,7 @@ my_surface = p.Surface((col*size,li*size))
 
 #points de vie
 
-pv_im = p.image.load("D:/projets_pycharm/UE2.4_projet_info/Cartes/coeur.png")
+pv_im = p.image.load("./Cartes/coeur.png")
 pv_im = p.transform.scale(pv_im, (118,41))
 pv_im = pv_im.convert()
 
